@@ -185,4 +185,5 @@ for out in [os.path.join(ROOT,'dist'),os.path.join(ROOT,'art')]:
     else:
         open(out+'/robots.txt','w').write(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}sitemap.xml\n')
         open(out+'/sitemap.xml','w').write(sm)
+open(os.path.join(ROOT,'dist','version.txt'),'w').write(time.strftime('%Y-%m-%d %H:%M:%S')+'\n')
 print('chế độ:','NHÁP (chặn Google)' if NHAP else 'CHÍNH THỨC → '+SITE)
