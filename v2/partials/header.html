@@ -1,0 +1,70 @@
+<!-- [0] Dải khẩu hiệu -->
+<div class="dai-kh">
+  <div class="khung">
+    <svg class="la" viewBox="0 0 56 20" aria-hidden="true"><path d="M2 10h20M22 10c6-8 14-8 20-4M22 10c6 8 14 8 20 4M42 6c4 1 8 3 12 4-4 1-8 3-12 4" fill="none" stroke-width="1.2"/></svg>
+    <p>Chăm sóc an tâm · Chọn ngay <b>Quê Ngoại</b></p>
+    <svg class="la" viewBox="0 0 56 20" aria-hidden="true" style="transform:scaleX(-1)"><path d="M2 10h20M22 10c6-8 14-8 20-4M22 10c6 8 14 8 20 4M42 6c4 1 8 3 12 4-4 1-8 3-12 4" fill="none" stroke-width="1.2"/></svg>
+  </div>
+</div>
+
+<!-- [1] Header dính -->
+<header class="dau-trang" id="dau-trang">
+  <div class="khung">
+    <div class="thanh-tien-ich">
+      <div class="hotline">Hotline đặt hàng <a href="tel:0342756219">0342 756 219</a></div>
+      <ul class="menu-phu">
+        <li><button data-mo="cau-chuyen"><svg class="icon"><use href="#i-leaf"/></svg>Giới thiệu</button></li>
+        <li><a href="{{BV}}index.html"><svg class="icon"><use href="#i-book"/></svg>Cẩm nang sức khỏe</a></li>
+        <li><button data-mo="tien-ich"><svg class="icon"><use href="#i-tool"/></svg>Tiện ích</button></li>
+        <li><button data-mo="chat"><svg class="icon"><use href="#i-chat"/></svg>Hỏi trợ lý AI</button></li>
+      </ul>
+    </div>
+    <div class="hang-chinh">
+      <a class="logo" href="{{HOME}}" aria-label="Quê ngoại, về trang chủ"><img src="{{A}}img/logo-vang.svg" alt="Quê ngoại" width="249" height="64"></a>
+      <button class="nut-danh-muc" data-mo="danh-muc" aria-expanded="false" aria-controls="mega"><svg class="icon"><use href="#i-menu"/></svg><span>Danh mục</span><svg class="icon" style="width:16px;height:16px"><use href="#i-down"/></svg></button>
+      <div class="tim">
+        <form class="o-tim" role="search" id="form-tim">
+          <label for="o-tim" class="an">Tìm sản phẩm, bài viết</label>
+          <input id="o-tim" type="search" placeholder="Bạn đang tìm sản phẩm gì?" autocomplete="off" enterkeyhint="search">
+          <button type="submit" aria-label="Tìm"><svg class="icon"><use href="#i-search"/></svg></button>
+        </form>
+        <div class="ket-qua-tim" id="kq-tim" hidden></div>
+        <nav class="tu-khoa" aria-label="Từ khóa hay tìm" id="tu-khoa"></nav>
+      </div>
+      <div class="vi-tri-chuong">
+        <button class="nut-tron" id="nut-chuong" aria-label="Thông báo" aria-expanded="false"><svg class="icon"><use href="#i-bell"/></svg><span class="huy-hieu">3</span></button>
+        <div class="thong-bao" id="thong-bao" hidden>
+          <h3>Thông báo</h3>
+          <ul>
+            <li><button data-xem="c350-2">Miễn phí ship cho đơn từ combo 2 chai. Xem combo →</button></li>
+            <li><button data-xem="c350-3">Combo 3 chai được tặng thêm 1 chai 350ml. Xem ngay →</button></li>
+            <li><button data-mo="ho-tro:dat-hang">Quản lý gọi xác nhận đơn trong khoảng 1 giờ sau khi bạn đặt.</button></li>
+          </ul>
+        </div>
+      </div>
+      <button class="nut-gio" data-mo="gio" aria-label="Giỏ hàng"><span class="chu">Giỏ hàng</span><svg class="icon"><use href="#i-cart"/></svg><span class="huy-hieu" data-dem-gio>0</span></button>
+    </div>
+  </div>
+  <div class="mega" id="mega" hidden>
+    <div class="khung">
+      <div class="mega-hop">
+        <h2>Danh mục chính</h2>
+        <ul>
+          <li><a href="{{HOME}}"><svg class="icon"><use href="#i-home"/></svg>Trang chủ</a></li>
+          <li><button data-mo="tat-ca-sp" class="mega-nut"><svg class="icon"><use href="#i-jar"/></svg>Sản phẩm</button></li>
+          <li><a href="{{HOME_ANCHOR}}#combo"><svg class="icon"><use href="#i-gift"/></svg>Combo ưu đãi</a></li>
+          <li><a href="{{BV}}index.html#cam-nang"><svg class="icon"><use href="#i-leaf"/></svg>Kinh nghiệm dân gian</a></li>
+          <li><a href="{{BV}}index.html#bai-viet"><svg class="icon"><use href="#i-book"/></svg>Cẩm nang chăm sóc gia đình</a></li>
+          <li><button data-mo="cach-dung" class="mega-nut"><svg class="icon"><use href="#i-swab"/></svg><span>Cách dùng đúng<small>Chấm, ngậm 30–45 giây, nhổ bỏ</small></span></button></li>
+          <li><button data-mo="tien-ich" class="mega-nut"><svg class="icon"><use href="#i-tool"/></svg><span>Tiện ích chăm sóc<small>Tính số chai, đồng hồ ngậm, lịch dùng</small></span></button></li>
+          <li><button data-mo="so-sanh" class="mega-nut"><svg class="icon"><use href="#i-info"/></svg>So sánh 350ml và Plus</button></li>
+          <li><button data-mo="cau-chuyen" class="mega-nut"><svg class="icon"><use href="#i-star"/></svg>Câu chuyện Quê ngoại</button></li>
+          <li><button data-mo="ho-tro:doi-tra" class="mega-nut"><svg class="icon"><use href="#i-shield"/></svg>Chính sách mua hàng</button></li>
+          <li><button data-mo="ho-tro:dat-hang" class="mega-nut"><svg class="icon"><use href="#i-truck"/></svg>Đặt hàng và giao nhận</button></li>
+          <li><button data-mo="lien-he" class="mega-nut"><svg class="icon"><use href="#i-phone"/></svg>Liên hệ</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="mega-man" id="mega-man" hidden></div>

@@ -1,0 +1,51 @@
+/* Responsive */
+@media (max-width:1080px){
+  .menu-phu{display:none}
+  .hang-chinh{grid-template-columns:auto 1fr auto auto;grid-template-areas:"logo dm chuong gio" "tim tim tim tim"}
+  .logo{grid-area:logo}.nut-danh-muc{grid-area:dm;justify-self:start}.vi-tri-chuong{grid-area:chuong}.nut-gio{grid-area:gio}.tim{grid-area:tim}
+  .tu-khoa{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+  .tu-khoa a{white-space:nowrap}
+  .hero-luoi{grid-template-columns:1fr}
+  .banner-phu{grid-template-rows:none;grid-template-columns:1fr 1fr}
+  .bang-ray{grid-auto-columns:calc((100% - 16px)/2)}
+  .cam-ket{grid-template-columns:repeat(2,1fr)}
+  .blog{grid-template-columns:1fr}
+  .cn-luoi{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ct-luoi{grid-template-columns:1fr 1fr}
+  .tien-ich-luoi{grid-template-columns:1fr 1fr}
+}
+@media (max-width:720px){
+  body{font-size:14.5px}
+  .dai-kh .la{display:none}
+  .logo img{height:46px}
+  .nut-danh-muc span{display:none}
+  .nut-gio span.chu{display:none}
+  .thanh-tien-ich{justify-content:center}
+  .slider{aspect-ratio:auto;height:520px}
+  .slide-noi p{font-size:13.5px}
+  .slide-noi h2{font-size:24px}
+  .slide::after{background:linear-gradient(0deg,rgba(14,30,22,.96) 0%,rgba(14,30,22,.8) 48%,rgba(14,30,22,.1) 100%)}
+  .slide-noi{max-width:100%;justify-content:flex-end;padding:20px 20px 40px}
+  .slide .chai{height:34%;top:14px;bottom:auto;right:8%}
+  .slide .chai.sau{right:28%;height:28%;top:40px}
+  .mui-ten{display:none}
+  .banner-phu{grid-template-columns:1fr}
+  .o-van-de{grid-template-columns:repeat(2,1fr)}
+  .the-ngang-luoi{grid-template-columns:1fr}
+  .bang-ray{grid-auto-columns:78%}
+  .bang .mui-ten{display:none}
+  .tien-ich-luoi{grid-template-columns:1fr}
+  .gt-noi{grid-template-columns:1fr}
+  .tron{width:220px}
+  .bai-nho{grid-template-columns:110px 1fr}
+  .cn-luoi{grid-template-columns:1fr}
+  .tv-hop{grid-template-columns:1fr}
+  .tv-anh{min-height:240px}
+  .ct-luoi{grid-template-columns:1fr}
+  .tieu-de{flex-wrap:wrap;align-items:flex-start}
+  .fab-trai{bottom:calc(16px + env(safe-area-inset-bottom,0px));left:calc(10px + env(safe-area-inset-left,0px))}
+  .fab-trai a{width:40px;height:40px}
+  .fab-trai{gap:8px}
+  .sidebar-phai{display:none}
+  .len-dau{right:calc(88px + env(safe-area-inset-right,0px))}
+}

@@ -1,0 +1,189 @@
+<main>
+<!-- [2] Hero -->
+<section class="hero" aria-label="Sản phẩm nổi bật">
+  <div class="khung hero-luoi">
+    <div class="slider" id="slider" aria-roledescription="carousel">
+      <div id="slides"></div>
+      <button class="mui-ten trai" id="sl-truoc" aria-label="Slide trước"><svg class="icon"><use href="#i-left"/></svg></button>
+      <button class="mui-ten phai" id="sl-sau" aria-label="Slide sau"><svg class="icon"><use href="#i-right"/></svg></button>
+      <div class="cham" id="sl-cham"></div>
+    </div>
+    <div class="banner-phu">
+      <button class="bp" data-mo="cach-dung">
+        <img src="img/banner-huong-dan.jpg" alt="" loading="lazy">
+        
+        <span class="bp-noi">
+          <span class="mat">Dùng đúng cách</span>
+          <span class="td">3 bước, 2 lần mỗi ngày</span>
+          <span class="p">Chấm hoặc ngậm 30–45 giây, sau đó nhổ bỏ hoàn toàn. Không nuốt, không uống.</span>
+          <span class="lien">Xem hướng dẫn <svg class="icon" style="width:16px;height:16px"><use href="#i-right"/></svg></span>
+        </span>
+      </button>
+      <button class="bp" data-xem="c350-3">
+        <img src="img/banner-combo.jpg" alt="" loading="lazy">
+        
+        <span class="bp-noi">
+          <span class="mat">Ưu đãi combo</span>
+          <span class="td">Mua 3 chai, tặng 1 chai</span>
+          <span class="p">Combo 3 chai 350ml · Miễn phí ship</span>
+          <span class="gia">420.000đ</span>
+          <span class="lien">Xem combo <svg class="icon" style="width:16px;height:16px"><use href="#i-right"/></svg></span>
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- [3] Chọn theo vấn đề -->
+<section class="khoi nen-giay" id="chon-van-de" aria-labelledby="cvd-td">
+  <div class="khung">
+    <div class="tieu-de"><div class="dau-gach"><div>
+      <h2 id="cvd-td">Răng miệng bạn đang cần chăm sóc gì?</h2>
+      <p class="mo-ta">Chọn đúng tình trạng, Quê ngoại gợi ý sản phẩm, combo và bài hướng dẫn phù hợp. Giao hàng toàn quốc, kiểm tra hàng khi nhận.</p>
+    </div></div></div>
+    <div class="tab-hang" role="tablist">
+      <button role="tab" id="tab-tinh-trang" aria-selected="true" aria-controls="pn-tinh-trang"><svg class="icon"><use href="#i-tooth"/></svg>Theo tình trạng</button>
+      <button role="tab" id="tab-tien-ich" aria-selected="false" aria-controls="pn-tien-ich"><svg class="icon"><use href="#i-tool"/></svg>Tiện ích</button>
+      <button role="tab" id="tab-hoi-dap" aria-selected="false" aria-controls="pn-hoi-dap"><svg class="icon"><use href="#i-info"/></svg>Hỏi đáp</button>
+    </div>
+    <div role="tabpanel" id="pn-tinh-trang" aria-labelledby="tab-tinh-trang">
+      <div class="o-van-de" id="o-van-de"></div>
+      <div class="khung-dong" id="khung-dong" aria-live="polite"></div>
+      <div class="chon-loai">
+        <div class="cl-dau"><span class="cl-mat">Chưa rõ nên chọn loại nào?</span><h3>Bản <em>Plus 500ml</em> lợi hơn mỗi lần dùng</h3></div>
+        <div class="cl-luoi">
+          <div class="cl-the">
+            <img src="img/bc-chum-350.jpg" alt="Rượu cau Quê ngoại 350ml" loading="lazy">
+            <div class="cl-noi">
+              <b>Quê ngoại 350ml</b>
+              <span class="cl-gia">150.000đ</span>
+              <ul><li>Rượu nếp, hạt cau</li><li>1 người dùng khoảng 11–17 ngày</li><li>≈ 429đ mỗi ml</li></ul>
+              <button class="nut-phu" data-xem="p350">Xem bản 350ml</button>
+            </div>
+          </div>
+          <div class="cl-the cl-plus">
+            <span class="cl-nhan">Nên chọn</span>
+            <img src="img/bc-cau-500.jpg" alt="Rượu cau Quê ngoại Plus 500ml" loading="lazy">
+            <div class="cl-noi">
+              <b>Quê ngoại Plus 500ml</b>
+              <span class="cl-gia">200.000đ</span>
+              <ul>
+                <li><svg class="icon"><use href="#i-leaf"/></svg><span><strong>Thêm lá bạc hà và quế</strong> ngâm cùng hạt cau</span></li>
+                <li><svg class="icon"><use href="#i-jar"/></svg><span><strong>Nhiều hơn 150ml</strong>, 1 người dùng khoảng 16–25 ngày</span></li>
+                <li><svg class="icon"><use href="#i-check"/></svg><span><strong>Rẻ hơn mỗi ml:</strong> ≈ 400đ so với ≈ 429đ</span></li>
+                <li><svg class="icon"><use href="#i-gift"/></svg><span>Combo 3 chai Plus: <strong>tặng thêm 1 chai 350ml</strong></span></li>
+              </ul>
+              <button class="nut-vang" data-xem="p500">Chọn Plus 500ml</button>
+            </div>
+          </div>
+        </div>
+        <div class="cl-phu">
+          <button class="chip" data-mo="so-sanh"><svg class="icon"><use href="#i-info"/></svg>So sánh chi tiết</button>
+          <button class="chip" data-mo="chat"><svg class="icon"><use href="#i-chat"/></svg>Hỏi trợ lý AI</button>
+          <a class="chip noi" href="https://zalo.me/0342756219" target="_blank" rel="noopener"><svg class="icon"><use href="#i-chat"/></svg>Zalo tư vấn</a>
+        </div>
+      </div>
+    </div>
+    <div role="tabpanel" id="pn-tien-ich" aria-labelledby="tab-tien-ich" hidden></div>
+    <div role="tabpanel" id="pn-hoi-dap" aria-labelledby="tab-hoi-dap" class="hoi-dap" hidden></div>
+  </div>
+</section>
+
+<!-- [4] Sản phẩm nổi bật -->
+<section class="khoi" id="noi-bat" aria-labelledby="nb-td">
+  <div class="khung">
+    <div class="tieu-de"><div class="dau-gach"><h2 id="nb-td">Sản phẩm nổi bật</h2></div><button class="xem-them" data-mo="tat-ca-sp">Xem thêm <svg class="icon" style="width:16px;height:16px"><use href="#i-right"/></svg></button></div>
+    <div class="bang" data-bang><div class="bang-ray" id="ray-noi-bat"></div>
+      <button class="mui-ten trai" data-truoc aria-label="Xem trước"><svg class="icon"><use href="#i-left"/></svg></button>
+      <button class="mui-ten phai" data-sau aria-label="Xem tiếp"><svg class="icon"><use href="#i-right"/></svg></button></div>
+  </div>
+</section>
+
+<!-- [5] Cam kết -->
+<section class="khoi nen-giay" aria-label="Cam kết của Quê ngoại" style="padding-block:26px">
+  <div class="khung cam-ket">
+    <button data-mo="cau-chuyen"><svg class="icon"><use href="#i-jar"/></svg><p>Ngâm theo công thức dân gian tại Nam Định</p><small>Xem câu chuyện</small></button>
+    <button data-mo="ho-tro:van-chuyen"><svg class="icon"><use href="#i-truck"/></svg><p>Miễn phí ship từ combo 2 chai</p><small>Chính sách vận chuyển</small></button>
+    <button data-mo="ho-tro:doi-tra"><svg class="icon"><use href="#i-box"/></svg><p>Kiểm tra hàng khi nhận, đổi trả trong 2 ngày nếu lỗi</p><small>Chính sách đổi trả</small></button>
+    <button data-mo="ho-tro:dat-hang"><svg class="icon"><use href="#i-clock"/></svg><p>Xác nhận đơn trong khoảng 1 giờ</p><small>Cách đặt hàng</small></button>
+  </div>
+</section>
+
+<!-- [6] Combo ưu đãi -->
+<section class="khoi" id="combo" aria-labelledby="cb-td">
+  <div class="khung">
+    <div class="tieu-de"><div class="dau-gach"><div><h2 id="cb-td">Combo ưu đãi</h2><p class="mo-ta">Từ 2 chai miễn phí ship. Combo 3 chai trở lên được tặng thêm chai 350ml.</p></div></div></div>
+    <div class="bang" data-bang><div class="bang-ray" id="ray-combo"></div>
+      <button class="mui-ten trai" data-truoc aria-label="Xem trước"><svg class="icon"><use href="#i-left"/></svg></button>
+      <button class="mui-ten phai" data-sau aria-label="Xem tiếp"><svg class="icon"><use href="#i-right"/></svg></button></div>
+  </div>
+</section>
+
+<!-- [7] Ba hàng theo nhu cầu -->
+<div id="hang-nhom"></div>
+
+<!-- [8] Giới thiệu -->
+<section class="gioi-thieu gt-que" id="gioi-thieu" aria-labelledby="gt-td">
+  <picture class="gt-nen"><source media="(max-width:720px)" srcset="img/ba-cu-que-dt.jpg"><img src="img/ba-cu-que.jpg" alt="Bà cụ ngồi bên hiên nhà cổ, nhặt hạt cau trên nong tre" loading="lazy"></picture>
+  <div class="khung gt-noi">
+    <div class="gt-chu">
+      <span class="gt-mat">Câu chuyện Quê ngoại</span>
+      <h2 id="gt-td">Bí quyết dân gian <i>trong chum rượu cau của bà</i></h2>
+      <p>Ở quê, các bà các mẹ vẫn chọn hạt cau chắc, ngâm cùng rượu nếp trong chum sứ để chăm sóc răng miệng mỗi sáng tối. Rượu cau Quê ngoại được ngâm tại Nam Định theo công thức dân gian ấy, đóng chai gọn gàng để gia đình bạn dùng tiện hơn mỗi ngày.</p>
+      <ul class="gt-diem">
+        <li><b>Hạt cau chọn kỹ</b><span>Cau chắc, ngâm cùng rượu nếp</span></li>
+        <li><b>Ngâm trong chum sứ</b><span>Theo cách các bà vẫn làm</span></li>
+        <li><b>Bản Plus</b><span>Thêm lá bạc hà và quế</span></li>
+      </ul>
+      <button class="nut-vang" data-mo="cau-chuyen">Đọc câu chuyện Quê ngoại</button>
+    </div>
+  </div>
+</section>
+
+<!-- [9] Bài viết mới -->
+<section class="khoi" id="bai-moi" aria-labelledby="bm-td">
+  <div class="khung">
+    <div class="tieu-de"><div class="dau-gach"><h2 id="bm-td">Bài viết mới</h2></div><a class="xem-them" href="bai-viet/index.html#bai-viet">Xem tất cả <svg class="icon" style="width:16px;height:16px"><use href="#i-right"/></svg></a></div>
+    <div class="blog" id="blog"></div>
+    <div class="giua"><a class="nut-vang" href="bai-viet/index.html#bai-viet">Xem tất cả bài viết</a></div>
+  </div>
+</section>
+
+<!-- [10] Cẩm nang dân gian -->
+<section class="khoi nen-giay" id="cam-nang" aria-labelledby="cn-td">
+  <div class="khung">
+    <div class="tieu-de"><div class="dau-gach"><div><h2 id="cn-td">Cẩm nang dân gian</h2><p class="mo-ta">Công thức chăm sóc răng miệng bằng nguyên liệu quen thuộc trong bếp nhà, kèm lưu ý an toàn.</p></div></div></div>
+    <div class="cn-luoi" id="cn-luoi"></div>
+    <div class="giua"><a class="nut-vang" href="bai-viet/index.html#cam-nang">Xem tất cả cẩm nang</a></div>
+  </div>
+</section>
+
+<!-- [11] Đăng ký tư vấn -->
+<section class="tu-van" id="tu-van" aria-labelledby="tv-td">
+  <div class="khung">
+    <div class="tv-hop">
+      <div class="tv-anh">
+        <img src="img/form-tu-van.jpg" alt="" loading="lazy">
+        
+        <div class="tv-chu">
+          <h2>Được tư vấn tận tình</h2>
+          <ul>
+            <li><svg class="icon"><use href="#i-check"/></svg>Chọn đúng loại theo tình trạng răng miệng</li>
+            <li><svg class="icon"><use href="#i-check"/></svg>Hướng dẫn chấm, ngậm đúng cách</li>
+            <li><svg class="icon"><use href="#i-check"/></svg>Báo giá combo tiết kiệm nhất</li>
+          </ul>
+        </div>
+      </div>
+      <form class="tv-form" id="form-tv" novalidate>
+        <h3 id="tv-td">Đăng ký tư vấn ngay</h3>
+        <p>Để lại số điện thoại, Quê ngoại sẽ gọi lại cho bạn.</p>
+        <label class="truong" for="tv-ten">Họ và tên<input id="tv-ten" name="ten" autocomplete="name" required></label>
+        <label class="truong" for="tv-sdt">Số điện thoại<input id="tv-sdt" name="sdt" type="tel" inputmode="tel" autocomplete="tel" required></label>
+        <label class="dong-y" for="tv-dongy"><input type="checkbox" id="tv-dongy" required><span>Tôi đồng ý để Quê ngoại dùng số điện thoại này để gọi tư vấn, theo <button type="button" data-mo="ho-tro:bao-mat" style="text-decoration:underline">chính sách bảo mật</button>.</span></label>
+        <p class="loi" id="tv-loi" aria-live="polite"></p>
+        <button class="nut-vang" type="submit">Gửi đăng ký</button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>

@@ -1,0 +1,18 @@
+{
+  "slug": "vi-du-ten-bai-khong-dau",
+  "nhom": "cam-nang",
+  "tieu_de": "Tiêu đề bài (50–65 ký tự, có từ khóa chính)",
+  "meta": "Mô tả 140–160 ký tự hiện trên Google",
+  "tom_tat": "Tóm tắt 2–3 câu",
+  "tu_khoa": [
+    "từ khóa chính",
+    "từ khóa phụ"
+  ],
+  "thoi_gian_doc": 5,
+  "ngay": "2026-11-18",
+  "anh_file": "bv-vi-du.jpg",
+  "chu_de_anh": "Mô tả ảnh minh họa",
+  "noi_dung_html": "<p>Mở bài…</p><h2>Mục 1</h2><p>…</p>",
+  "nguon": [],
+  "goi_y_san_pham": false
+}

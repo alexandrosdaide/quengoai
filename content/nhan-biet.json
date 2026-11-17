@@ -1,0 +1,217 @@
+{
+  "hoi-mieng": {
+    "tom_tat": "Hơi thở có mùi khó chịu kéo dài, đôi khi người xung quanh nhận ra trước, phần lớn bắt nguồn từ ngay trong khoang miệng.",
+    "dau_hieu": [
+      "Hơi thở vẫn có mùi dù đã chải răng đều đặn.",
+      "Người xung quanh nhận ra mùi khi nói chuyện gần.",
+      "Có vị khó chịu trong miệng, kèm cảm giác khô miệng.",
+      "Mùi lúc mới ngủ dậy, khi đói hay sau món nặng mùi thường chỉ tạm thời."
+    ],
+    "nguyen_nhan": [
+      "Mảng bám trên lưỡi và thức ăn kẹt ở kẽ răng.",
+      "Sâu răng, bệnh nướu tạo ra các hợp chất có mùi.",
+      "Khô miệng do thở bằng miệng hoặc tác dụng phụ của một số loại thuốc.",
+      "Ít gặp hơn: trào ngược dạ dày, viêm xoang, viêm amidan, hút thuốc lá."
+    ],
+    "tai_nha": [
+      "Chải răng 2 lần mỗi ngày, mỗi lần khoảng 2 phút, bằng kem có fluor.",
+      "Làm sạch lưỡi mỗi ngày bằng dụng cụ cạo lưỡi hoặc chải nhẹ lưỡi.",
+      "Làm sạch kẽ răng mỗi ngày bằng chỉ nha khoa hoặc bàn chải kẽ.",
+      "Uống đủ nước; nhai kẹo cao su không đường sau bữa ăn nặng mùi."
+    ],
+    "khi_nao_kham": [
+      "Hôi miệng không cải thiện sau vài tuần tự chăm sóc đúng cách.",
+      "Kèm nướu đau, sưng, chảy máu, đau răng hoặc răng lung lay.",
+      "Nghi do trào ngược dạ dày, viêm xoang hay amidan: khám chuyên khoa phù hợp."
+    ]
+  },
+  "dau-nhuc": {
+    "tom_tat": "Cơn đau âm ỉ hoặc nhói ở răng, thường tăng khi ăn uống hay về đêm, là tín hiệu răng hoặc mô quanh răng cần được kiểm tra.",
+    "dau_hieu": [
+      "Đau âm ỉ hoặc từng cơn nhói ở một hay nhiều răng.",
+      "Ê buốt khi ăn uống đồ nóng, lạnh hoặc ngọt.",
+      "Đau khi cắn hoặc nhai ở bên răng đau.",
+      "Cơn đau thường khó chịu hơn khi nằm vào ban đêm.",
+      "Đau vùng hàm trên có thể do viêm xoang, dễ nhầm với đau răng."
+    ],
+    "nguyen_nhan": [
+      "Sâu răng, nguyên nhân phổ biến nhất.",
+      "Răng nứt, vỡ hoặc miếng trám bị bong, hỏng.",
+      "Viêm nướu, bệnh nha chu, răng khôn mọc lệch hoặc mọc kẹt.",
+      "Nghiến răng; áp xe răng cần nha sĩ xử lý."
+    ],
+    "tai_nha": [
+      "Súc nước muối ấm (khoảng nửa thìa cà phê muối mỗi cốc), nhổ bỏ, không nuốt.",
+      "Chườm lạnh ngoài má 15–20 phút, không đặt đá trực tiếp lên da.",
+      "Kê cao gối khi ngủ; ăn đồ mềm, nhai bằng bên không đau.",
+      "Chải nhẹ bằng bàn chải lông mềm; tạm tránh dùng chỉ sát răng đau."
+    ],
+    "khi_nao_kham": [
+      "Đau quá 2 ngày hoặc đã dùng thuốc giảm đau mà không đỡ.",
+      "Kèm sốt, đau khi cắn, nướu đỏ, vị lạ trong miệng hoặc sưng má, hàm."
+    ]
+  },
+  "sung-nuou": {
+    "tom_tat": "Nướu đỏ, sưng, đau khi chải răng hoặc khi nhai; phần lớn trường hợp liên quan đến mảng bám và cao răng tích tụ ở viền nướu.",
+    "dau_hieu": [
+      "Nướu đỏ sẫm hoặc đỏ tía, sưng phồng hơn bình thường.",
+      "Nướu đau khi nhai, khi chải răng hoặc khi chạm vào.",
+      "Chảy máu khi chải răng, dùng chỉ nha khoa hoặc cắn đồ cứng.",
+      "Hơi thở có mùi hoặc có vị khó chịu trong miệng.",
+      "Nướu tụt, chân răng lộ ra nhiều hơn trước."
+    ],
+    "nguyen_nhan": [
+      "Mảng bám và cao răng, nguyên nhân phổ biến nhất.",
+      "Thức ăn hoặc dị vật nhỏ kẹt ở viền nướu, kẽ răng.",
+      "Chải quá mạnh, răng khôn mọc, hàm giả hoặc mão răng không khít.",
+      "Thay đổi nội tiết, thiếu vitamin, hút thuốc, tiểu đường chưa kiểm soát tốt."
+    ],
+    "tai_nha": [
+      "Chải nhẹ 2 lần mỗi ngày bằng bàn chải lông mềm và kem có fluor.",
+      "Làm sạch kẽ răng mỗi ngày, thao tác nhẹ để không tổn thương nướu.",
+      "Súc nước muối ấm rồi nhổ bỏ; chườm lạnh ngoài má khi sưng đau.",
+      "Hạn chế đồ ngọt, đồ cứng hoặc sắc; bỏ thuốc lá."
+    ],
+    "khi_nao_kham": [
+      "Nướu sưng kéo dài khoảng 2 tuần dù đã chăm sóc tại nhà.",
+      "Có mủ, khối sưng dưới chân răng, sưng má, sốt hoặc răng lung lay.",
+      "Vết loét, đốm trong miệng kéo dài trên 1 tuần hoặc có cục u."
+    ]
+  },
+  "sau-rang": {
+    "tom_tat": "Sâu răng thường bắt đầu âm thầm với đốm trắng đục hay chút ê buốt thoáng qua, khi vi khuẩn trong mảng bám làm men răng mất khoáng.",
+    "dau_hieu": [
+      "Đốm trắng đục trên mặt răng.",
+      "Đốm chuyển sang màu nâu hoặc đen.",
+      "Ê buốt thoáng qua với đồ ngọt, chua, nóng, lạnh, hết khi ngừng tiếp xúc.",
+      "Thức ăn hay mắc ở một chỗ, nhất là rãnh răng hàm, kẽ răng.",
+      "Giai đoạn đầu có thể chưa gây triệu chứng gì."
+    ],
+    "nguyen_nhan": [
+      "Vi khuẩn trong mảng bám biến đường, tinh bột thành axit.",
+      "Ăn vặt, nhâm nhi đồ uống có đường nhiều lần trong ngày.",
+      "Không làm sạch răng đều đặn; ăn trước khi ngủ.",
+      "Khô miệng do thuốc, trào ngược dạ dày, miếng trám cũ hỏng, thiếu fluor."
+    ],
+    "tai_nha": [
+      "Chải răng 2 lần mỗi ngày bằng kem có fluor.",
+      "Sau khi chải, nhổ bọt kem, không súc lại bằng nước.",
+      "Làm sạch kẽ răng mỗi ngày bằng chỉ nha khoa hoặc bàn chải kẽ.",
+      "Giảm đồ ngọt giữa các bữa; nếu ăn, nên ăn trong bữa chính."
+    ],
+    "khi_nao_kham": [
+      "Nghi có dấu hiệu sâu răng: đặt lịch khám càng sớm càng tốt.",
+      "Thấy lỗ trên răng, đốm nâu, đen hoặc đau buốt khi ăn uống.",
+      "Trẻ em nghi sâu răng: cho trẻ đi khám, không tự xử lý tại nhà."
+    ]
+  },
+  "hang-ngay": {
+    "tom_tat": "Chăm sóc răng miệng mỗi sáng và tối là nền tảng giữ răng, nướu và hơi thở khỏe, gồm chải răng, làm sạch kẽ răng và lưỡi.",
+    "dau_hieu": [
+      "Nướu khỏe có màu hồng nhạt, săn chắc, ôm sát chân răng.",
+      "Chảy máu khi chải răng là dấu hiệu nướu cần được chú ý.",
+      "Hơi thở có mùi buổi sáng là bình thường, thường giảm sau khi chải răng.",
+      "Ê buốt hoặc thức ăn hay mắc một chỗ là điều nên để ý."
+    ],
+    "nguyen_nhan": [
+      "Bỏ quên bề mặt lưỡi và kẽ răng khi vệ sinh.",
+      "Súc lại bằng nước ngay sau khi chải làm trôi fluor.",
+      "Ăn vặt hoặc uống đồ ngọt sau khi đã chải răng buổi tối.",
+      "Chải quá mạnh hoặc dùng bàn chải lông cứng làm tổn thương nướu."
+    ],
+    "tai_nha": [
+      "Chải răng sáng và tối, mỗi lần khoảng 2 phút, bằng kem có fluor.",
+      "Nhổ bọt kem, không súc lại bằng nước ngay sau khi chải.",
+      "Làm sạch kẽ răng bằng chỉ nha khoa hoặc bàn chải kẽ; làm sạch lưỡi.",
+      "Uống đủ nước, hạn chế đồ ngọt, không hút thuốc lá."
+    ],
+    "khi_nao_kham": [
+      "Khám răng định kỳ ít nhất 1–2 lần mỗi năm, hoặc theo lịch nha sĩ hẹn.",
+      "Lấy cao răng thường 6–12 tháng một lần, theo lời khuyên của nha sĩ.",
+      "Người đang mang thai hoặc có tiểu đường type 2 nên khám đều đặn hơn."
+    ]
+  },
+  "lan-dau": {
+    "tom_tat": "Lần đầu dùng rượu cau, nhiều người băn khoăn dùng thế nào, có phải nuốt không và ai không nên dùng; dưới đây là những điều cần nắm.",
+    "dau_hieu": [
+      "Có phải uống không? Không, chỉ dùng trong khoang miệng rồi nhổ bỏ.",
+      "Có cần nhai hạt cau, têm trầu? Không nhai, không têm trầu để ăn.",
+      "Có thay được đánh răng, khám nha sĩ? Không, sản phẩm không phải thuốc.",
+      "Ăn uống ngay được không? Nên chờ khoảng 15 phút sau khi dùng.",
+      "Ai không nên dùng? Trẻ em, phụ nữ có thai, người tổn thương răng miệng nặng."
+    ],
+    "nguyen_nhan": [],
+    "cach_dung": [
+      "Chấm: tăm bông sạch thấm ít rượu cau, bôi nhẹ lên vùng răng, nướu đau.",
+      "Ngậm hoặc súc: 10–15 ml trong 30–45 giây rồi nhổ bỏ hoàn toàn.",
+      "Dùng 2 lần mỗi ngày: sáng sau khi ngủ dậy, tối trước khi ngủ.",
+      "Sau khi dùng, tránh ăn uống hoặc súc lại bằng nước khoảng 15 phút.",
+      "Tuyệt đối không nuốt, không uống."
+    ],
+    "tai_nha": [
+      "Vẫn chải răng 2 lần mỗi ngày bằng kem có fluor.",
+      "Làm sạch kẽ răng mỗi ngày bằng chỉ nha khoa hoặc bàn chải kẽ.",
+      "Khám răng định kỳ theo lịch nha sĩ hẹn."
+    ],
+    "khi_nao_kham": [
+      "Đau nhiều hoặc kéo dài quá 2 ngày: đi khám nha sĩ.",
+      "Sâu răng nặng, viêm tủy, áp xe, mòn men răng cần nha sĩ thăm khám."
+    ]
+  },
+  "ca-nha": {
+    "tom_tat": "Khi mua rượu cau cho cả nhà hoặc làm quà, nên biết ai dùng được, ai không nên dùng và mỗi chai dùng được bao lâu.",
+    "dau_hieu": [
+      "Dùng được: người lớn từ 18 tuổi; Quê ngoại chỉ bán cho người từ 18 tuổi.",
+      "Không nên dùng: trẻ em.",
+      "Không nên dùng: phụ nữ có thai.",
+      "Không nên dùng: người có bệnh lý hoặc tổn thương nặng về răng miệng."
+    ],
+    "nguyen_nhan": [],
+    "goi_y_goi": [
+      "Cách tính: ngậm, súc 10–15 ml × 2 lần/ngày, khoảng 20–30 ml mỗi người mỗi ngày.",
+      "1 chai 350 ml: 1 người dùng khoảng 11–17 ngày.",
+      "1 chai Plus 500 ml: 1 người dùng khoảng 16–25 ngày.",
+      "1 người, 1 tháng (600–900 ml): gói 2–3 chai 350 ml hoặc 2 chai Plus.",
+      "2 người, 1 tháng (1.200–1.800 ml): gói 5 chai 350 ml hoặc 3–5 chai Plus.",
+      "3–4 người, 1 tháng (1.800–3.600 ml): gói 5 chai Plus hoặc thùng 12 chai 350 ml.",
+      "Ước tính chưa tính chai tặng; chỉ chấm bằng tăm bông thì dùng ít hơn."
+    ],
+    "tai_nha": [
+      "Cả nhà chải răng 2 lần mỗi ngày bằng kem có fluor phù hợp lứa tuổi.",
+      "Không ăn vặt hay uống đồ ngọt sau khi đã chải răng buổi tối.",
+      "Hạn chế bánh kẹo, nước ngọt; ưu tiên nước lọc giữa các bữa.",
+      "Làm sạch kẽ răng hằng ngày và khám răng định kỳ cho cả nhà."
+    ],
+    "khi_nao_kham": [
+      "Trẻ em có dấu hiệu nghi sâu răng: cho trẻ đi khám nha sĩ.",
+      "Người đang mang thai hoặc có tiểu đường type 2 nên khám răng đều đặn hơn."
+    ]
+  },
+  "di-kham": {
+    "tom_tat": "Chăm sóc tại nhà chỉ giúp dịu khó chịu tạm thời; đau nhiều, kéo dài hoặc sưng lan rộng cần nha sĩ tìm nguyên nhân và xử lý.",
+    "dau_hieu": [
+      "Đau răng kéo dài quá 2 ngày.",
+      "Đã dùng thuốc giảm đau theo hướng dẫn mà không đỡ.",
+      "Đau khi cắn, kèm sốt, nướu đỏ hoặc vị lạ trong miệng.",
+      "Nướu sưng hơn 2 tuần, có mủ, hoặc răng người lớn lung lay.",
+      "Vết loét hơn 1 tuần, mảng đỏ hoặc cục u trong miệng, trên môi."
+    ],
+    "nguyen_nhan": [
+      "Sâu răng tiến triển đến tủy, áp xe răng.",
+      "Răng nứt, miếng trám lỏng hoặc vỡ.",
+      "Răng khôn mọc chưa đủ chỗ, bệnh nướu.",
+      "Nghiến răng; đôi khi do viêm xoang."
+    ],
+    "tai_nha": [
+      "Súc nước muối ấm rồi nhổ bỏ, không nuốt; trẻ em không tự làm.",
+      "Dùng thuốc giảm đau không kê đơn đúng liều, không tự tăng liều.",
+      "Ăn đồ mềm, tránh nhai bên đau, tránh đồ quá nóng, lạnh, ngọt.",
+      "Chườm lạnh ngoài má; ghi lại thời điểm, vị trí đau và thuốc đang dùng."
+    ],
+    "khi_nao_kham": [
+      "Cấp cứu ngay khi sưng lan quanh mắt hoặc ở cổ.",
+      "Sưng trong miệng, ở cổ khiến khó thở, khó nuốt, khó nói: gọi cấp cứu 115.",
+      "Không tự lái xe; nhờ người đưa đi, mang theo các thuốc đang dùng."
+    ]
+  }
+}
