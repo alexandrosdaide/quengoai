@@ -7,15 +7,17 @@
 - QR trỏ về https://quengoai.pages.dev/lp/ (đã quét thử).
 - Nếu tên dự án `quengoai` trên Cloudflare bị trùng: đổi SITE trong build.py (QB_SITE) và làm lại QR.
 
-## 2. Đưa lên (làm 1 lần, làm được trên iPad)
-1. Cloudflare › Workers & Pages › Create › Pages › Upload assets › tên dự án `quengoai` › tải `que-ngoai-web.zip` › Deploy.
-2. Google Search Console: thêm https://quengoai.pages.dev/ (xác minh bằng thẻ HTML) › gửi sitemap.xml.
-3. Lần cập nhật sau: dự án `quengoai` › Create deployment › tải zip mới.
+## 2. Cập nhật web (tự động từ GitHub, từ 18/11/2026)
+- Mã nguồn: https://github.com/alexandrosdaide/quengoai (nhánh `main`).
+- Cloudflare Pages dự án `quengoai` nối với kho này: mỗi lần đẩy lên `main`, Cloudflare tự chạy `python3 v2/build.py`, xuất `dist/`, khoảng 1–2 phút sau web cập nhật.
+- Kiểm tra bản đang chạy: https://quengoai.pages.dev/version.txt (giờ dựng, theo giờ UTC).
+- Quay lại bản cũ: Cloudflare › quengoai › Deployments › chọn bản cũ › Rollback.
+- Google Search Console: thêm https://quengoai.pages.dev/ › gửi sitemap.xml (chưa làm).
 
 ## 3. Đăng bài hằng ngày
 - Mỗi bài = 1 file JSON trong `content/articles/` theo mẫu `v2/mau/mau-bai-viet.json`, kèm 1 ảnh 1200×675 (đặt tên ở `anh_file`, để trong `work/web/`).
 - Trường `ngay` (YYYY-MM-DD) quyết định thứ tự: bài mới tự lên đầu danh sách, tự vào sitemap. Không cần sửa build.py.
-- Dựng: `python3 v2/build.py` (bản chính thức). Bản nháp chặn Google: `QB_NHAP=1 python3 v2/build.py`.
+- Đăng: thêm file bài + ảnh, commit, đẩy lên `main` (Cloudflare tự dựng). Dựng thử máy: `python3 v2/build.py`. Bản nháp chặn Google: `QB_NHAP=1 python3 v2/build.py`.
 - Kiểm tra trước khi đăng: công dụng chỉ theo file 05, không từ cấm, không nêu độ cồn, ảnh đúng chủ đề, có liên kết nội bộ, chạy `node v2/test.js`.
 - Nhịp khuyến nghị: 2–3 bài chất lượng/tuần tốt hơn 7 bài mỏng (Google phạt nội dung tạo hàng loạt, nhất là chủ đề sức khoẻ).
 
